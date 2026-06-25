@@ -1,29 +1,47 @@
-# Student Expense Tracker
+Student Expense Tracker
 
-A full-stack web application for students to track and manage expenses.
+Overview
 
-## Technologies Used
-- Python Flask
-- SQLite
-- HTML
-- CSS
-- JavaScript
-- REST API
+Student Expense Tracker is a web application that helps students manage and track their daily expenses. Users can categorize expenses, view spending records, and analyze their spending patterns through charts.
 
-## Features
-- Add expenses
-- View expenses
-- Store data in SQLite database
-- Track spending by category
-- Expense visualization using charts
+Features
 
-## Run Locally
+- Add expenses by category
+- Track daily and monthly spending
+- View expense records in a table
+- Visualize expenses using charts
+- Simple and user-friendly interface
 
-1. Install dependencies
-   pip install -r requirements.txt
+Technologies Used
 
-2. Run application
-   python app.py
+- Python
+- Streamlit
+- Pandas
 
-3. Open browser
-   http://127.0.0.1:5000
+Installation
+
+1. Clone the repository
+2. Install dependencies
+
+pip install -r requirements.txt
+
+3. Run the application
+
+streamlit run app.py
+
+Project Structure
+
+- app.py
+- requirements.txt
+- README.md
+
+Future Enhancements
+
+- Expense editing and deletion
+- Monthly reports
+- Database integration
+- User authentication
+
+Author
+
+Deepthi
